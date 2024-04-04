@@ -38,10 +38,12 @@ hab.append('ajedrez')
 print(estudiante.items())
 
 # 8 Obtener los valores del diccionario como una lista
-valores = estudiante
+valor = list(estudiante.values())
+print(valor)
 
 # 9 Cambie el diccionario a una lista de tuplas utilizando el método items()
-
+cambio = list(estudiante.items())
+print(cambio)
 # 10 Eliminar uno de los elementos del diccionario
 estudiante.popitem()
 print(estudiante)
